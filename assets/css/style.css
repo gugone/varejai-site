@@ -429,6 +429,34 @@ a { color: inherit; }
   color: var(--text-muted);
 }
 
+.badge-apura {
+  background: rgba(14, 159, 110, 0.15);
+  color: #22c58d;
+}
+
+/* Acento verde exclusivo do card APURA, sem tocar nas variáveis globais */
+
+.product-card--apura .product-icon-fallback {
+  background: linear-gradient(135deg, #0e9f6e, #0b7a55);
+}
+
+.product-card--apura .product-list li::before {
+  background: #22c58d;
+}
+
+.product-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--accent-end);
+}
+
+.product-card--apura .product-link {
+  color: #22c58d;
+}
+
 /* Confianca */
 
 .confianca-grid {
