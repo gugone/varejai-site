@@ -1,0 +1,469 @@
+/* APURA — acento verde exclusivo, motivo corner-bracket, tema dark do site */
+
+:root {
+  --apura-accent: #0e9f6e;
+  --apura-accent-dark: #0b7a55;
+  --apura-accent-bright: #22c58d;
+  --apura-tint: rgba(14, 159, 110, 0.12);
+  --apura-down: #f87171;
+}
+
+/* Marca no header */
+
+.apura-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.apura-tag {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--apura-accent-bright);
+  border: 1px solid var(--apura-accent);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+.main-nav a[aria-current="page"] {
+  color: var(--apura-accent-bright);
+}
+
+/* Corner brackets — assinatura visual do APURA */
+
+.bracket {
+  position: relative;
+}
+
+.bracket::before,
+.bracket::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--apura-accent);
+}
+
+.bracket::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.bracket::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+/* Hero */
+
+.apura-hero {
+  padding: 72px 0 0;
+}
+
+.apura-hero-inner {
+  max-width: 720px;
+}
+
+.apura-eyebrow {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--apura-accent-bright);
+  margin-bottom: 18px;
+}
+
+.apura-hero h1 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(2.1rem, 4.6vw, 3.1rem);
+  line-height: 1.15;
+  margin: 0 0 20px;
+}
+
+.apura-highlight {
+  color: var(--apura-accent-bright);
+}
+
+.apura-sub {
+  font-size: 1.05rem;
+  max-width: 560px;
+  color: var(--text-muted);
+}
+
+.apura-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.btn-apura {
+  background: var(--apura-accent);
+  color: #fff;
+}
+
+.btn-apura:hover {
+  box-shadow: 0 6px 18px rgba(14, 159, 110, 0.28);
+}
+
+.apura-vagas {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.apura-vagas strong {
+  color: var(--apura-accent-bright);
+}
+
+/* Raio-X */
+
+.raiox {
+  margin: 48px 0 88px;
+  padding: 26px 24px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.raiox-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.raiox-head h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.raiox-head span {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.raiox table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.raiox th {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-align: left;
+  padding: 8px 6px;
+  border-bottom: 2px solid var(--border);
+}
+
+.raiox td {
+  padding: 11px 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.raiox td.ncm {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.raiox .raiox-num {
+  text-align: right;
+}
+
+.raiox td.delta {
+  font-weight: 600;
+  text-align: right;
+}
+
+.raiox td.delta.up {
+  color: var(--apura-accent-bright);
+}
+
+.raiox td.delta.down {
+  color: var(--apura-down);
+}
+
+.raiox-foot {
+  margin: 14px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* Seções genéricas do APURA */
+
+.apura-section {
+  padding: 72px 0;
+}
+
+.apura-section-alt {
+  background: var(--bg-elevated);
+}
+
+.apura-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--apura-accent-bright);
+  margin-bottom: 14px;
+}
+
+.apura-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  line-height: 1.2;
+  max-width: 30ch;
+  margin: 0 0 8px;
+}
+
+.apura-body {
+  max-width: 62ch;
+  margin-top: 16px;
+  color: var(--text-muted);
+}
+
+.apura-body strong {
+  color: var(--text);
+}
+
+/* Passos */
+
+.apura-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 36px;
+}
+
+.apura-passo {
+  padding: 26px 22px;
+  background: var(--bg-elevated-2);
+  border-radius: var(--radius);
+}
+
+.apura-section-alt .apura-passo {
+  background: var(--bg-elevated-2);
+}
+
+.apura-num {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--apura-accent-bright);
+  letter-spacing: 0.05em;
+}
+
+.apura-passo h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 8px;
+}
+
+.apura-passo p {
+  font-size: 0.94rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Autoridade */
+
+.apura-quote {
+  margin-top: 24px;
+  padding: 30px 28px;
+  max-width: 640px;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  background: var(--bg-elevated);
+  border-radius: var(--radius);
+}
+
+.apura-quote footer {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Oferta */
+
+.apura-oferta {
+  background: var(--bg-elevated);
+}
+
+.apura-preco-box {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-top: 32px;
+}
+
+.apura-preco-card {
+  flex: 1;
+  min-width: 260px;
+  background: var(--bg-elevated-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 26px;
+}
+
+.apura-preco-destaque {
+  border-color: var(--apura-accent);
+}
+
+.apura-plano {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.apura-valor {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin: 12px 0 2px;
+}
+
+.apura-valor small {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.apura-antes {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: line-through;
+  margin: 10px 0 0;
+}
+
+.apura-preco-card ul {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.apura-preco-card li {
+  padding: 8px 0;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+.apura-selo {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--apura-accent-bright);
+  border: 1px solid var(--apura-accent);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+/* Formulário */
+
+.apura-form-section {
+  background: var(--apura-tint);
+}
+
+.apura-form-card {
+  margin-top: 32px;
+  max-width: 560px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+}
+
+.apura-form-card label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 18px 0 6px;
+}
+
+.apura-form-card label:first-child {
+  margin-top: 0;
+}
+
+.apura-form-card input,
+.apura-form-card select {
+  width: 100%;
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.apura-form-card input:focus,
+.apura-form-card select:focus {
+  outline: none;
+  border-color: var(--apura-accent);
+}
+
+.apura-form-btn {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.apura-priv {
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .apura-grid3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .apura-hero {
+    padding: 48px 0 0;
+  }
+
+  .apura-section {
+    padding: 48px 0;
+  }
+
+  .raiox {
+    margin-bottom: 56px;
+  }
+
+  .hide-m {
+    display: none;
+  }
+
+  td,
+  th {
+    padding: 9px 4px;
+  }
+}
