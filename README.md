@@ -1,15 +1,21 @@
 # varejai-site
 
-Site institucional da Varejai — HTML/CSS/JS estático, sem build step.
+Site institucional da Varejai. HTML/CSS/JS estático, sem build step. No ar em
+[varejai.com.br](https://varejai.com.br) via GitHub Pages.
 
 ## Estrutura
 
 ```
 index.html
+apura/index.html     (landing do produto APURA, /apura)
+robots.txt
+sitemap.xml
 assets/
-  css/style.css
+  css/style.css       (design system do site: header, footer, cards, etc)
+  css/apura.css       (acento verde e estilos exclusivos da landing do APURA)
   js/main.js
-  img/            (logo Varejai, ícone RETINA)
+  js/apura.js         (formulário da landing do APURA -> WhatsApp)
+  img/                (logo Varejai, ícone RETINA)
 ```
 
 ## Rodar localmente
@@ -22,27 +28,19 @@ python3 -m http.server 8000
 
 e abrir `http://localhost:8000`.
 
-## Pendências antes de publicar
+## Pendências
 
 - **E-mail de contato**: `contato@varejai.com.br` está como placeholder em `index.html`
   (link "fale direto") e em `assets/js/main.js` (destino do formulário). Confirmar o
-  e-mail real antes de publicar.
-- **Seção Apura**: copy propositalmente neutra ("em breve"), sem inventar
-  funcionalidade — atualizar quando houver informação real do produto.
+  e-mail real, se ainda não for esse.
 
-## Publicar em varejai.com.br (GitHub Pages)
+## SEO: Google Search Console
 
-O arquivo `CNAME` na raiz já está configurado com `varejai.com.br`. Falta:
+1. Acesse [search.google.com/search-console](https://search.google.com/search-console),
+   adicione a propriedade de domínio `varejai.com.br`.
+2. O Google vai pedir um registro **TXT** de verificação. Adicione esse registro no
+   painel de DNS do domínio (mesmo lugar onde estão os 4 registros A do GitHub Pages).
+3. Depois de verificado, em Sitemaps, envie `https://varejai.com.br/sitemap.xml`.
 
-1. Tornar este repositório **público** — Pages gratuito não funciona em repo privado
-   (Settings → General → Danger Zone → Change repository visibility).
-2. Mesclar o PR que traz o site pra `main`.
-3. Ligar o Pages: Settings → Pages → Build and deployment → Source: "Deploy from a
-   branch" → `main` / `(root)`.
-4. Em Settings → Pages → Custom domain, confirmar `varejai.com.br`.
-5. No provedor onde o domínio foi registrado, apontar o DNS pro GitHub Pages:
-   - 4 registros **A** no domínio raiz (`@`):
-     `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - (opcional) 1 registro **CNAME** de `www` para `gugone.github.io`
-6. Aguardar a propagação de DNS e marcar "Enforce HTTPS" no painel do Pages assim que
-   disponível.
+O `robots.txt` já libera todos os crawlers e aponta pro sitemap, então não precisa de
+mais nada além do cadastro em si.
