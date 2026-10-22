@@ -643,3 +643,4 @@ a { color: inherit; }
   .pessoa { grid-template-columns: 1fr; }
   .pessoa-foto { width: 72px; height: 72px; font-size: 1.4rem; }
 }
+@media (min-width: 860px) { .equipe-grid-3 { grid-template-columns: repeat(3, 1fr); } .equipe-grid-3 .pessoa { grid-template-columns: 1fr; } }
