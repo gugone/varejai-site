@@ -6,8 +6,12 @@ Site institucional da Varejai. HTML/CSS/JS estático, sem build step. No ar em
 ## Estrutura
 
 ```
-index.html
-apura/index.html     (landing do produto APURA, /apura)
+index.html           (home: hero, portfólio com selos, prova, sobre, contato)
+retina/ whatsapp-commerce/ erp/ ponto/ achei/ compras/   (uma página por produto)
+equipe/ privacidade/
+apura/index.html     (landing do APURA: oculta, fora do menu e do sitemap, noindex)
+(o levantamento interno do portfólio fica no repositório privado do ERP: docs/estudos/PORTFOLIO-VAREJAI.md)
+assets/og/           (imagens 1200x630 para compartilhamento, uma por página)
 robots.txt
 sitemap.xml
 assets/
@@ -29,6 +33,10 @@ python3 -m http.server 8000
 e abrir `http://localhost:8000`.
 
 ## Pendências
+
+- **WhatsApp**: todos os CTAs usam `wa.me/5582920003978` (número que já estava no
+  formulário do APURA). Confirmar se é o número oficial da VarejAI; para trocar, buscar e
+  substituir `5582920003978` em todo o repositório (HTML e `assets/js/*.js`).
 
 - **E-mail de contato**: `contato@varejai.com.br` está como placeholder em `index.html`
   (link "fale direto") e em `assets/js/main.js` (destino do formulário). Confirmar o

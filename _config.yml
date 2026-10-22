@@ -1,0 +1,4 @@
+# GitHub Pages (Jekyll): documentos internos não são publicados no site.
+exclude:
+  - docs/
+  - README.md

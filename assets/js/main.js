@@ -1,48 +1,56 @@
 (function () {
+  // PENDÊNCIA: confirmar o número oficial de WhatsApp da VarejAI (docs/PORTFOLIO.md).
+  // O mesmo número aparece nos links wa.me das páginas.
+  var WHATSAPP = "5582920003978";
+
   var toggle = document.getElementById("nav-toggle");
   var nav = document.getElementById("main-nav");
 
+  function fecharMenu() {
+    nav.classList.remove("open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "Abrir menu");
+  }
+
   if (toggle && nav) {
     toggle.addEventListener("click", function () {
-      var isOpen = nav.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", String(isOpen));
+      var aberto = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(aberto));
+      toggle.setAttribute("aria-label", aberto ? "Fechar menu" : "Abrir menu");
     });
-
     nav.querySelectorAll("a").forEach(function (link) {
-      link.addEventListener("click", function () {
-        nav.classList.remove("open");
-        toggle.setAttribute("aria-expanded", "false");
-      });
+      link.addEventListener("click", fecharMenu);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && nav.classList.contains("open")) {
+        fecharMenu();
+        toggle.focus();
+      }
     });
   }
 
-  var yearEl = document.getElementById("footer-year");
-  if (yearEl) {
-    yearEl.textContent = new Date().getFullYear();
-  }
+  var ano = document.getElementById("footer-year");
+  if (ano) ano.textContent = new Date().getFullYear();
 
+  // Formulário de contato: monta a mensagem e abre o WhatsApp. Nada é enviado a servidor.
   var form = document.getElementById("contact-form");
   if (form) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
-      var data = new FormData(form);
-      var nome = data.get("nome") || "";
-      var loja = data.get("loja") || "";
-      var email = data.get("email") || "";
-      var mensagem = data.get("mensagem") || "";
-
-      var subject = "Contato pelo site - " + nome;
-      var body =
-        "Nome: " + nome + "\n" +
-        "Loja/empresa: " + loja + "\n" +
-        "E-mail: " + email + "\n\n" +
-        mensagem;
-
-      window.location.href =
-        "mailto:contato@varejai.com.br?subject=" +
-        encodeURIComponent(subject) +
-        "&body=" +
-        encodeURIComponent(body);
+      var nomeInput = form.elements.nome;
+      if (!nomeInput.value.trim()) {
+        nomeInput.focus();
+        nomeInput.setAttribute("aria-invalid", "true");
+        return;
+      }
+      nomeInput.removeAttribute("aria-invalid");
+      var d = new FormData(form);
+      var linhas = ["Olá! Vim pelo site da VarejAI.", "Nome: " + d.get("nome")];
+      if (d.get("loja")) linhas.push("Loja/empresa: " + d.get("loja"));
+      if (d.get("cidade")) linhas.push("Cidade: " + d.get("cidade"));
+      if (d.get("produto")) linhas.push("Interesse: " + d.get("produto"));
+      if (d.get("mensagem")) linhas.push("", d.get("mensagem"));
+      window.open("https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(linhas.join("\n")), "_blank", "noopener");
     });
   }
 })();
