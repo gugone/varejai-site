@@ -629,7 +629,7 @@ a { color: inherit; }
 }
 .pessoa h3 { margin: 0; font-family: var(--font-heading); font-size: 1.3rem; }
 .pessoa p { margin: 8px 0 0; }
-.pessoa-foto {
+.pessoa-foto { object-fit: cover;
   width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center;
   background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
   font-family: var(--font-heading); font-weight: 700; font-size: 1.8rem; color: #fff;
