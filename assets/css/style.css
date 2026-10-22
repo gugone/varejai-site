@@ -982,3 +982,12 @@ a:hover { color: var(--text); }
   .wa-float span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .site-footer { padding-bottom: 96px; }
 }
+
+/* Portfólio: ícone pequeno na mesma linha do nome (22/10: os ícones de 48 px soltos no topo pesavam no celular) */
+.product-card-top { align-items: center; margin-bottom: 10px; }
+.product-card-top h3 { flex: 1; margin: 0; font-size: 1.2rem; }
+.product-card .product-icon { width: 34px; height: 34px; border-radius: 9px; }
+.product-card .product-icon-svg svg { width: 19px; height: 19px; }
+.product-card-top h3 { min-width: 0; overflow-wrap: anywhere; }
+.product-card-top .status { flex-shrink: 0; }
+@media (max-width: 420px) { .product-card-top { flex-wrap: wrap; } .product-card-top .status { order: -1; margin-left: auto; flex-basis: 100%; width: max-content; max-width: max-content; } }
