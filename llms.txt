@@ -1,0 +1,21 @@
+# VarejAI
+
+> Tecnologia para supermercados, construída e testada numa loja real em Alagoas. Empresa Simples de Inovação com sede em Arapiraca (AL).
+
+A VarejAI nasceu de mais de 10 anos de operação de supermercado. Cada produto roda primeiro num supermercado parceiro, com dado e prejuízo de verdade, antes de ser oferecido a outras lojas. O selo de cada produto diz o estado atual: disponível, em piloto ou em breve.
+
+## Produtos
+
+- [RETINA](https://varejai.com.br/retina): prevenção de perdas com as câmeras que a loja já tem (perda, quebra e validade vencendo, cruzando imagem com o estoque). Disponível.
+- [WhatsApp Commerce](https://varejai.com.br/whatsapp-commerce): venda do supermercado pelo WhatsApp, com catálogo de estoque real, atendimento com IA e Pix no chat. Em piloto.
+- [ERP + PDV VarejAI](https://varejai.com.br/erp): ERP com IA para supermercado independente; começa ao lado do sistema atual. Em piloto.
+- [Ponto VarejAI](https://varejai.com.br/ponto): ponto eletrônico digital no tablet, com banco de horas e exportação para a folha. Em piloto.
+- [Achei](https://varejai.com.br/achei): presença de negócios locais no Google e nas IAs, com artigos toda semana e medição das citações. Plataforma: https://achei.varejai.com.br. Em piloto.
+- [VarejAI Compras](https://varejai.com.br/compras): copiloto de margem e compras. Em breve.
+
+## Empresa
+
+- [Equipe](https://varejai.com.br/equipe): fundador e CEO Gustavo Félix.
+- [Blog da VarejAI](https://blog.varejai.com.br/): inteligência artificial, gestão e tecnologia no varejo alimentar.
+- Contato: WhatsApp (82) 92000-3978 · contato@varejai.com.br
+- Preços: sob consulta, conforme a loja e os produtos escolhidos.
