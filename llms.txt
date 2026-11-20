@@ -8,10 +8,18 @@ A VarejAI nasceu de mais de 10 anos de operação de supermercado. Cada produto 
 
 - [RETINA](https://varejai.com.br/retina): prevenção de perdas com as câmeras que a loja já tem (perda, quebra e validade vencendo, cruzando imagem com o estoque). Disponível.
 - [WhatsApp Commerce](https://varejai.com.br/whatsapp-commerce): venda do supermercado pelo WhatsApp, com catálogo de estoque real, atendimento com IA e Pix no chat. Em piloto.
-- [ERP + PDV VarejAI](https://varejai.com.br/erp): ERP com IA para supermercado independente; começa ao lado do sistema atual. Em piloto.
+- [ERP + PDV VarejAI](https://varejai.com.br/erp): ERP com IA para supermercado independente; começa ao lado do sistema atual e entra em cinco etapas (raio-x, preço e compras, fiscal e dinheiro, caixa e canais, desligar o antigo). Em piloto.
+- [VarejAI Pricing](https://varejai.com.br/pricing): preço contra a praça: o que subir, o que baixar e por quê, com a margem em jogo. Em piloto.
+- [VarejAI Compras](https://varejai.com.br/compras): pedido sugerido pelo giro, envio ao representante e comparação de quanto a loja pagou em cada fornecedor. Em piloto.
+- [Recebimento de notas](https://varejai.com.br/recebimento): conferência da nota fiscal de compra contra o pedido (a mais, a menos ou mais caro). Em piloto.
+- [Reforma tributária](https://varejai.com.br/reforma): classificação IBS/CBS de cada produto e simulação de quanto o imposto muda a partir de 2027. Em piloto.
+- [Ofertas VarejAI](https://varejai.com.br/ofertas): a IA propõe as ofertas da semana pelo giro, pela margem e pela praça; o dono aprova e sai o encarte. Em piloto.
+- [Conferência de recebíveis](https://varejai.com.br/recebiveis): conferência do que a credenciadora e o banco pagaram (cartão e Pix) contra cada venda. Em piloto.
+- [Tarefas e checklists](https://varejai.com.br/tarefas): a rotina da loja vira checklist no celular; o que o sistema aponta vira tarefa com responsável e prazo. Em piloto.
+- [Preço mínimo do iFood](https://varejai.com.br/preco-ifood): o menor preço no iFood que ainda paga a taxa e a margem, produto a produto. Em piloto.
+- [CRM VarejAI](https://varejai.com.br/crm): clube e reativação: encontra o cliente que parou de comprar, fala com ele e mede a volta. Em breve.
 - [Ponto VarejAI](https://varejai.com.br/ponto): ponto eletrônico digital no tablet, com banco de horas e exportação para a folha. Em piloto.
 - [Achei](https://varejai.com.br/achei): presença de negócios locais no Google e nas IAs, com artigos toda semana e medição das citações. Plataforma: https://achei.varejai.com.br. Em piloto.
-- [VarejAI Compras](https://varejai.com.br/compras): copiloto de margem e compras. Em breve.
 
 ## Empresa
 
