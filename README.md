@@ -22,6 +22,16 @@ assets/
   img/                (logo Varejai, ícone RETINA)
 ```
 
+## Produtos: o site sai da vitrine do ERP
+
+Os cartões do portfólio, as listas de produtos (rodapé e "Outros produtos"), o sitemap, o `llms.txt` e as páginas
+marcadas como `gerada` saem de `vitrine/produtos.json`, no repositório do ERP. **Não edite essas partes à mão:**
+mude a vitrine. Quando ela muda na `main` do ERP, a rotina `.github/workflows/site.yml` de lá roda
+`ferramentas/gerar_site.py`, tira as fotos com `ferramentas/previa.py` e abre aqui um pull request com a prévia. As
+fotos ficam no ramo `previas`, que nunca entra na `main`. Aprovar o PR = publicar.
+
+Para rodar na mão: `python ferramentas/gerar_site.py ../erp-varejai/vitrine/produtos.json`.
+
 ## Rodar localmente
 
 Qualquer servidor estático funciona, por exemplo:
