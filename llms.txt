@@ -9,7 +9,7 @@ A VarejAI nasceu de mais de 10 anos de operação de supermercado. Cada produto 
 - [RETINA](https://varejai.com.br/retina): prevenção de perdas com as câmeras que a loja já tem (perda, quebra e validade vencendo, cruzando imagem com o estoque). Disponível.
 - [WhatsApp Commerce](https://varejai.com.br/whatsapp-commerce): venda do supermercado pelo WhatsApp, com catálogo de estoque real, atendimento com IA e Pix no chat. Em piloto.
 - [ERP + PDV VarejAI](https://varejai.com.br/erp): ERP com IA para supermercado independente; começa ao lado do sistema atual e entra em cinco etapas (raio-x, preço e compras, fiscal e dinheiro, caixa e canais, desligar o antigo). Em piloto.
-- [VarejAI Pricing](https://varejai.com.br/pricing): preço contra a praça: o que subir, o que baixar e por quê, com a margem em jogo. Em piloto.
+- [VarejAI Pricing](https://varejai.com.br/pricing): preço contra a praça: o que subir, o que baixar e por quê, com a margem em jogo. Disponível.
 - [VarejAI Compras](https://varejai.com.br/compras): pedido sugerido pelo giro, envio ao representante e comparação de quanto a loja pagou em cada fornecedor. Em piloto.
 - [Recebimento de notas](https://varejai.com.br/recebimento): conferência da nota fiscal de compra contra o pedido (a mais, a menos ou mais caro). Em piloto.
 - [Reforma tributária](https://varejai.com.br/reforma): classificação IBS/CBS de cada produto e simulação de quanto o imposto muda a partir de 2027. Em piloto.
