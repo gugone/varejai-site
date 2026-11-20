@@ -18,7 +18,7 @@ A VarejAI nasceu de mais de 10 anos de operação de supermercado. Cada produto 
 - [Tarefas e checklists](https://varejai.com.br/tarefas): a rotina da loja vira checklist no celular; o que o sistema aponta vira tarefa com responsável e prazo. Em piloto.
 - [Preço mínimo do iFood](https://varejai.com.br/preco-ifood): o menor preço no iFood que ainda paga a taxa e a margem, produto a produto. Em piloto.
 - [CRM VarejAI](https://varejai.com.br/crm): clube e reativação: encontra o cliente que parou de comprar, fala com ele e mede a volta. Em breve.
-- [Ponto VarejAI](https://varejai.com.br/ponto): ponto eletrônico digital no tablet, com banco de horas e exportação para a folha. Em piloto.
+- [Ponto VarejAI](https://varejai.com.br/ponto): ponto eletrônico digital no tablet, com banco de horas e exportação para a folha. Disponível.
 - [Achei](https://varejai.com.br/achei): presença de negócios locais no Google e nas IAs, com artigos toda semana e medição das citações. Plataforma: https://achei.varejai.com.br. Em piloto.
 
 ## Empresa
