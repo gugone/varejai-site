@@ -1,0 +1,21 @@
+# Avisa o Bing (IndexNow) a cada publicação do site: o ChatGPT pesquisa no índice do Bing, e sem aviso uma página
+# nova pode levar semanas para ser lida. Espera o GitHub Pages publicar e envia todos os endereços do sitemap.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Esperar o GitHub Pages publicar
+        run: sleep 90
+      - name: Enviar o sitemap ao IndexNow
+        run: |
+          KEY=1832e522a84714fcf7953831a87caf8b
+          URLS=$(curl -s https://varejai.com.br/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' | jq -R . | jq -s -c .)
+          echo "Enviando: $URLS"
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"varejai.com.br\",\"key\":\"$KEY\",\"keyLocation\":\"https://varejai.com.br/$KEY.txt\",\"urlList\":$URLS}"
