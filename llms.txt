@@ -6,30 +6,30 @@ A VarejAI nasceu de mais de 10 anos de operação de supermercado. Cada produto 
 
 ## Disponíveis para contratar
 
-- [RETINA](https://varejai.com.br/retina): Prevenção de perdas com as câmeras da loja. Usa o CFTV que você já tem para achar perda, quebra e validade vencendo, cruzando a imagem com o estoque do ERP.
-- [VarejAI Pricing](https://varejai.com.br/pricing): Seu preço contra o da praça, produto a produto. Mostra o que está caro, o que está barato e quanto de margem dá para recuperar, com o motivo de cada sugestão.
-- [Ponto VarejAI](https://varejai.com.br/ponto): Ponto eletrônico digital para empresas. Batida no tablet por CPF e PIN ou reconhecimento facial, banco de horas, espelho e exportação para a folha.
+- [RETINA](https://varejai.com.br/retina/): Prevenção de perdas com as câmeras da loja. Usa o CFTV que você já tem para achar perda, quebra e validade vencendo, cruzando a imagem com o estoque do ERP.
+- [VarejAI Pricing](https://varejai.com.br/pricing/): Seu preço contra o da praça, produto a produto. Mostra o que está caro, o que está barato e quanto de margem dá para recuperar, com o motivo de cada sugestão.
+- [Ponto VarejAI](https://varejai.com.br/ponto/): Ponto eletrônico digital para empresas. Batida no tablet por CPF e PIN ou reconhecimento facial, banco de horas, espelho e exportação para a folha.
 
 ## Em piloto (novas lojas por lista de espera)
 
-- [WhatsApp Commerce](https://varejai.com.br/whatsapp-commerce): Venda do supermercado pelo WhatsApp. Catálogo com estoque real, atendimento com IA, Pix no chat e separação conferida pelo código de barras.
-- [ERP + PDV VarejAI](https://varejai.com.br/erp): ERP com IA para supermercado, em etapas. Começa ao lado do sistema atual e mostra onde está o dinheiro. Entra em cinco etapas, do raio-x em observação até desligar o sistema antigo.
-- [VarejAI Compras](https://varejai.com.br/compras): Pedido sugerido pelo giro de cada produto. Sugere o pedido de cada fornecedor pelo que vende e pelo que tem no estoque, envia ao representante e mostra onde a loja pagou mais caro.
-- [Recebimento de notas](https://varejai.com.br/recebimento): A nota contra o pedido, antes de guardar a mercadoria. Confere cada nota fiscal de compra contra o pedido: o que veio a mais, a menos ou mais caro, antes de virar prejuízo.
-- [Reforma tributária](https://varejai.com.br/reforma): Seu cadastro pronto para o IBS e a CBS. Classifica cada produto para o IBS e a CBS e mostra quanto o imposto da loja muda a partir de 2027.
-- [Ofertas VarejAI](https://varejai.com.br/ofertas): As ofertas da semana propostas pela IA. Propõe as ofertas da semana pelo giro, pela margem e pela praça; o dono aprova e sai o encarte.
-- [Conferência de recebíveis](https://varejai.com.br/recebiveis): O que a maquininha pagou contra o que a loja vendeu. Confere o que a credenciadora e o banco pagaram, no cartão e no Pix, contra cada venda da loja.
-- [Tarefas e checklists](https://varejai.com.br/tarefas): A rotina da loja vira checklist. A rotina vira checklist no celular, e o que o sistema aponta vira tarefa com responsável e prazo.
-- [Preço mínimo do iFood](https://varejai.com.br/preco-ifood): O preço que não dá prejuízo na taxa do iFood. Calcula, produto a produto, o menor preço no iFood que ainda paga a taxa e a margem da loja.
-- [Achei](https://varejai.com.br/achei): Sua empresa no Google e nas IAs. Artigos toda semana, Perfil da Empresa no Google e medição de quanto as IAs citam você. Em uso por 4 negócios, entre eles uma clínica e um supermercado.
+- [WhatsApp Commerce](https://varejai.com.br/whatsapp-commerce/): Venda do supermercado pelo WhatsApp. Catálogo com estoque real, atendimento com IA, Pix no chat e separação conferida pelo código de barras.
+- [ERP + PDV VarejAI](https://varejai.com.br/erp/): ERP com IA para supermercado, em etapas. Começa ao lado do sistema atual e mostra onde está o dinheiro. Entra em cinco etapas, do raio-x em observação até desligar o sistema antigo.
+- [VarejAI Compras](https://varejai.com.br/compras/): Pedido sugerido pelo giro de cada produto. Sugere o pedido de cada fornecedor pelo que vende e pelo que tem no estoque, envia ao representante e mostra onde a loja pagou mais caro.
+- [Recebimento de notas](https://varejai.com.br/recebimento/): A nota contra o pedido, antes de guardar a mercadoria. Confere cada nota fiscal de compra contra o pedido: o que veio a mais, a menos ou mais caro, antes de virar prejuízo.
+- [Reforma tributária](https://varejai.com.br/reforma/): Seu cadastro pronto para o IBS e a CBS. Classifica cada produto para o IBS e a CBS e mostra quanto o imposto da loja muda a partir de 2027.
+- [Ofertas VarejAI](https://varejai.com.br/ofertas/): As ofertas da semana propostas pela IA. Propõe as ofertas da semana pelo giro, pela margem e pela praça; o dono aprova e sai o encarte.
+- [Conferência de recebíveis](https://varejai.com.br/recebiveis/): O que a maquininha pagou contra o que a loja vendeu. Confere o que a credenciadora e o banco pagaram, no cartão e no Pix, contra cada venda da loja.
+- [Tarefas e checklists](https://varejai.com.br/tarefas/): A rotina da loja vira checklist. A rotina vira checklist no celular, e o que o sistema aponta vira tarefa com responsável e prazo.
+- [Preço mínimo do iFood](https://varejai.com.br/preco-ifood/): O preço que não dá prejuízo na taxa do iFood. Calcula, produto a produto, o menor preço no iFood que ainda paga a taxa e a margem da loja.
+- [Achei](https://varejai.com.br/achei/): Sua empresa no Google e nas IAs. Artigos toda semana, Perfil da Empresa no Google e medição de quanto as IAs citam você. Em uso por 4 negócios, entre eles uma clínica e um supermercado.
 
 ## Em breve
 
-- [CRM VarejAI](https://varejai.com.br/crm): Fala com o cliente que sumiu e mede a volta. Clube e reativação: encontra o cliente que parou de comprar, fala com ele e mede quantos voltaram.
+- [CRM VarejAI](https://varejai.com.br/crm/): Fala com o cliente que sumiu e mede a volta. Clube e reativação: encontra o cliente que parou de comprar, fala com ele e mede quantos voltaram.
 
 ## Empresa
 
-- [Equipe](https://varejai.com.br/equipe): fundador e CEO Gustavo Félix Maurício (mais de 10 anos na operação de supermercado; Administração pela UFAL, MBA pela FGV).
+- [Equipe](https://varejai.com.br/equipe/): fundador e CEO Gustavo Félix Maurício (mais de 10 anos na operação de supermercado; Administração pela UFAL, MBA pela FGV).
 - Razão social VAREJAI INOVA SIMPLES (I.S.), CNPJ 67.852.752/0001-51.
 - [LinkedIn](https://www.linkedin.com/company/varejai/) · [Instagram](https://www.instagram.com/varej.ai/)
 - Contato: WhatsApp (82) 92000-3978 · contato@varejai.com.br
